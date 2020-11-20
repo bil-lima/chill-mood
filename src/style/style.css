@@ -8,18 +8,38 @@ body {
 }
 
 .container{
+    
+    background-color: #5783af;
     margin-left: 15%;
     width: 70%;
-    height: 7em;
-    background: url(../img/bg-ceu.jpg) center no-repeat fixed;
-    border-radius: 30px;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.479);
+    height: 20em;
+}
+.container i {
+    font-size: 3em;
+    color: #14385a;
+    
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.container2{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    padding: 6% 8%;
+    height: 100%;
+    background-color: #5783af;
+    border-radius: 15px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.479);
     
 }
 .titulo{
     text-align: center;
     opacity: 1;
-    
+    background: url(../img/bg-ceu.jpg) center no-repeat fixed;
+    height: 60%;
+    border-radius: 30px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.479);
+
 }
 .titulo h1{
     font-size: 3em;

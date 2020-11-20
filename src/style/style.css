@@ -1,15 +1,28 @@
 body {
-    background-color: #125ea3;
+    background-color:#20598f;
     font-family: 'Open Sans Condensed', sans-serif;
     color: white;
-    background: url(../img/bg-ceu.jpg) center no-repeat fixed
+    
+    
+}
+.container{
+    height: 10em;
+    background: url(../img/bg-ceu.jpg) center no-repeat fixed;
+    border-radius: 30px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.479);
     
 }
 .titulo{
     text-align: center;
-    font-size: 2em;
+    opacity: 1;
     
-    
+}
+.titulo h1{
+    font-size: 3em;
+    transition:0.5s;
+}
+.titulo h1:hover{
+    font-size: 3.1em;
 }
 .titulo h2{
     font-size: 0.5em;

@@ -18,6 +18,15 @@
     <title>chill mood</title>
 </head>
 <body>
+    <audio id="rain">
+        <source src="msc/chuva.mp3" type="audio/mpeg"> 
+    </audio>
+    <audio id="games">
+        <source src="msc/games.mp3" type="audio/mpeg"> 
+    </audio>
+    <audio id="book">
+        <source src="msc/book.mp3" type="audio/mpeg"> 
+    </audio>
 
     <div class="container2">
         <div class="container">
@@ -37,18 +46,19 @@
         </div>
     </div>
     <div class="container3">
-        <strong>SELECT YOUR MODE</strong>
+        <strong onclick="pauseAudio()" id="future-pause">SELECT YOUR MODE</strong>
     </div>
-    <div class="container4">
-    <i class="fas fa-cloud-rain"></i>
+    <div class="container4" id="extendRain">
+    <i class="fas fa-cloud-rain" onclick="playRain()"></i>
     </div>
-    <div class="container4">
-        <i class="fas fa-gamepad"></i>
+    <div class="container4" id="extendGames">
+        <i class="fas fa-gamepad" onclick="playGames()"></i>
     </div>
-    <div class="container4">
-        <i class="fas fa-book"></i>
+    <div class="container4" id="extendBook">
+        <i class="fas fa-book" onclick="playBook()"></i>
     </div>
 
+    <script src="js/index.js"></script>
 </body>
 </html>
 

@@ -7,7 +7,6 @@ body {
 /* SMARTPHONES MIN-WIDHT: 360PX */
 @media screen and (min-width: 360px){
 .container{
-    
     background-color: #5783af;
     margin-left: 15%;
     width: 70%;

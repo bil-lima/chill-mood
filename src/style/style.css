@@ -1,0 +1,16 @@
+body {
+    background-color: #125ea3;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    background: url(../img/bg-ceu.jpg) center no-repeat fixed
+    
+}
+.titulo{
+    text-align: center;
+    font-size: 2em;
+    
+    
+}
+.titulo h2{
+    font-size: 0.5em;
+}

@@ -1,3 +1,4 @@
+
 body {
     background-color:#20598f;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -5,8 +6,11 @@ body {
     
     
 }
+
 .container{
-    height: 10em;
+    margin-left: 15%;
+    width: 70%;
+    height: 7em;
     background: url(../img/bg-ceu.jpg) center no-repeat fixed;
     border-radius: 30px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.479);

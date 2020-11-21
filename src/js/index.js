@@ -42,6 +42,8 @@ function playBook() {
 }
 
 function pauseAudio() {
+    // returns the text from "PAUSE" to "SELECT YOUR MODE"
+    pauseLofi.innerHTML = "<strong>SELECT YOUR MODE</strong>"
     // pause the music
     mscRain.pause();
     mscGames.pause();

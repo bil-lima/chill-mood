@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="chill lo-fi for a chill mood">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Gabriel Lima">
+
     <!-- LINKS -->
+
     <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-
+    
     <title>chill mood</title>
+
 </head>
 <body>
-    <!-- Sistema de reprodução de áudio.-->
     <audio id="rain">
         <source src="msc/rain.mp3" type="audio/mpeg"> 
     </audio>
@@ -27,6 +30,7 @@
     <audio id="book">
         <source src="msc/book.mp3" type ="audio/mpeg"> 
     </audio>
+    
     <div class="bg-image"></div>
     <div class="container2">
         <div class="container">
@@ -37,8 +41,6 @@
                 <h2 title="차  가  운  기  분">
         차  가  운  기  분
                 </h2>
-
-
             </div>
             <a href="https://www.linkedin.com/in/gabriel-lima-9710191b9/" target="_blank" title="Linkedin"><i class="fab fa-linkedin" ></i></a>
             <a href="https://github.com/bil-lima/" target="_blank" title="Github"><i class="fab fa-github-square"></i></a>
@@ -47,20 +49,22 @@
     </div>
     <div class="container3">
         <strong onclick="pauseAudio()" id="future-pause">SELECT YOUR MODE</strong>
-    </div>
-    <div class="container4" id="extendRain">
-    <i class="fas fa-cloud-rain" onclick="playRain()"></i>
-    </div>
-    <div class="container4" id="extendGames">
-        <i class="fas fa-gamepad" onclick="playGames()"></i>
-    </div>
-    <div class="container4" id="extendBook">
-        <i class="fas fa-book" onclick="playBook()"></i>
-    </div>
 
+            <!-- Sistema de reprodução de áudio.-->
+            
+    </div>
+    <div class="container4" id="extendRain" onclick="playRain()">
+    <i class="fas fa-cloud-rain"></i>
+    </div>
+    <div class="container4" id="extendGames" onclick="playGames()">
+        <i class="fas fa-gamepad" ></i>
+    </div>
+    <div class="container4" id="extendBook" onclick="playBook()">
+        <i class="fas fa-book" ></i>
+    </div>
     <script src="js/index.js"></script>
 </body>
 </html>
 
 <!-- CRÉDITOS ICONES<div>Icons made by <a href="https://www.flaticon.com/authors/iconixar" title="iconixar">iconixar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-    --> 
+--> 
